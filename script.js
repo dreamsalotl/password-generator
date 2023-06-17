@@ -11,7 +11,7 @@ function generatePassword() {
     } else if (passLength > 128) {
       alert("Password length too long, please try again.");
       getLength();
-    }
+    } 
     return passLength;
   }
 
